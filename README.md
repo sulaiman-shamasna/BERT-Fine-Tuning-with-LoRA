@@ -29,3 +29,7 @@ To work with this project, follow these steps:
     pip install -r requirements.txt
     ```
 
+4. **Setup CUDA:**
+    ```bash
+    pip install torchvision==0.13.1+cu116 -f https://download.pytorch.org/whl/torch_stable.html
+    ```
